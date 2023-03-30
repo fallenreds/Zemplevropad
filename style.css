@@ -235,3 +235,29 @@ footer span{
         width: 100%;
     }
 }
+
+@media (max-width: 430px){
+    .servis{
+        height: 120px;
+        width: 120px;
+    }
+    .servis span{
+        font-size: 11px;
+    }
+    .servis img{
+        width: 45px;
+    }
+}
+
+@media (max-width: 360px){
+    .servis{
+        width: 220px;
+        height: 220px;
+    }
+    .servis span{
+        font-size: 20px;
+    }
+    .servis img{
+        width: 50px;
+    }
+}
