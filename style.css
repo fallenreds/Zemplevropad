@@ -33,6 +33,10 @@ body{
     height: 75px;
 }
 
+.header span{
+    margin-left: 60px;
+}
+
 .titletext{
     font-size: 35pt;
     margin: 35px 0;
@@ -124,16 +128,32 @@ body{
 }
 
 footer{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
     margin: 100px 0 0 0;
     width: 100%;
     height: 75px;
     background-image: url("imgs/dirt.jpg");
+    color: white;
+    font-family: Roboto;
 
+}
 
+footer span{
+    margin-left: 30px;
 }
 
 
 @media (max-width: 1366px) {
+    .header{
+        height: 60px;
+        font-size: 20pt;
+        line-height:60px;
+    }
+    footer{
+        height: 60px;
+    }
     .box_container {
         width: 35%;
     }
@@ -162,7 +182,7 @@ footer{
     }
 }
 
-@media (max-width: 1366px){
+@media (max-width: 1280px){
     .content_container{
         flex-direction: column;
     }
@@ -183,5 +203,15 @@ footer{
     }
     .titletext{
         font-size: 30px;
+    }
+}
+
+@media (max-width: 480px){
+    .box_container{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .box_image_container{
+        width: 100%;
     }
 }
