@@ -165,7 +165,7 @@ body{
 }
 
 .services_container{
-    justify-content:space-evenly;
+    justify-content: space-between;
     margin-bottom: 100px;
     display: flex;
     flex-direction: row;
@@ -173,6 +173,21 @@ body{
 
 
 }
+
+.certificate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.certificate div{
+    margin: 20px;
+}
+.certificate img{
+
+    border-radius: 10px;;
+    width: 100%;
+}
+
 
 .servis{
 
@@ -285,6 +300,9 @@ footer span{
     }
 }
 @media (max-width: 740px){
+    .certificate{
+        grid-template-columns: 1fr;
+    }
     .servis{
         height: 150px;
         width: 150px;
