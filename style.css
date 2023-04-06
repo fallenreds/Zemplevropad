@@ -299,10 +299,15 @@ footer span{
         font-size: 30px;
     }
 }
-@media (max-width: 740px){
+
+@media (max-width: 1000px) {
     .certificate{
         grid-template-columns: 1fr;
     }
+}
+
+@media (max-width: 740px){
+
     .servis{
         height: 150px;
         width: 150px;
