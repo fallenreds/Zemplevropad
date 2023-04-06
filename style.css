@@ -300,7 +300,7 @@ footer span{
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
     .certificate{
         grid-template-columns: 1fr;
     }
