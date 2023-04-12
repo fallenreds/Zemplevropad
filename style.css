@@ -29,7 +29,7 @@ body{
     max-width: 30px;
 }
 
-header{
+.header{
 
     color: white;
     font-family: Roboto;
@@ -52,18 +52,20 @@ header{
     margin: auto 20px;
 
 }
+
 .right-menu img{
-    max-width: 30px;
+    max-height: 30px;
 }
 
 .contacts{
-
+    line-height: 1;
     margin: auto 20px;
-    font-size: 10px;
+    font-size: 12px;
     align-content: center;
     text-align: left;
 }
 .head_text{
+    line-height: 1;
     margin: auto 20px;
     font-size: 14px;
 }
@@ -242,9 +244,8 @@ footer span{
 
 @media (max-width: 1366px) {
     .header{
-        height: 60px;
+
         font-size: 20pt;
-        line-height:60px;
     }
     footer{
         height: 60px;
@@ -261,9 +262,7 @@ footer span{
         margin-bottom: 15px;
     }
 
-    .titletext{
-       font-size: 35px;
-    }
+
 
     .servis{
         width: 300px;
@@ -315,10 +314,7 @@ footer span{
     .head_text{
         font-size: 12px;
     }
-    .contacts{
-        font-size: 8px;
-        line-height:2;
-    }
+
     .header_info{
         font-size: 14px;
     }
@@ -334,8 +330,21 @@ footer span{
     }
 }
 
-
+@media (max-width: 550px){
+    .head_text{
+        font-size: 11px;
+    }
+}
 @media (max-width: 480px){
+    .header{
+        grid-auto-columns: 1fr 1fr 1fr;
+    }
+    .head_text{
+        margin: auto;
+        align-content: center;
+        font-size: 8px;
+    }
+
     .box_container{
         width: 100%;
         margin-bottom: 10px;
